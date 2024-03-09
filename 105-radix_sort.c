@@ -62,6 +62,7 @@ void countSort(int *arr, size_t n, int exp, int *output)
 */
 void radix_sort(int *array, size_t size)
 {
+	/* Find the maximum number to know number of digits */
 	int exp, maximum = 0;
 	int *output = '\0'; /* output array should be n(size) */
 
